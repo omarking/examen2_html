@@ -1,0 +1,267 @@
+*
+{
+		margin:0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Dancing Script', cursive;
+	color: #666;
+	background-color: #02010a; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 80%;
+	height: auto;
+}
+
+header nav ul li:hover{
+	transition: ;
+}
+
+#contenido{
+	width: 900px;
+	height: 100%;
+	margin-left: 15%
+}
+
+/*Estas líneas de CSS las usaremos para dar estilo a la cabecera:*/
+
+#main-header {
+	width: 90%;
+	align-content: center;
+	background: #5b7989;
+	color: white;
+	height: 80px;
+	border-radius: 10px 10px 0px 0px;
+	align-items: center;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 25px 0 0 20px;
+	text-decoration: none;
+    text-shadow: 5px 5px 5px #02010a
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+				margin-top: 1%;
+				transition-property: margin-top;
+				transition-duration: 2seg
+			}
+				
+				nav ul li a:hover {
+					background: #0b76a6;
+				}				
+
+			
+
+    #wrapper
+	{
+	width: 100%;
+	}
+
+	article
+	{
+	box-sizing: border-box;
+	float:left;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 80%;
+	}
+
+	#columna1
+	{	
+	background-color: #82c3a6;
+	margin-left: 5%;
+	width: 90%;
+	border: 1px;
+	}
+
+	#imagen1:hover 
+	{
+	-ms-transform: rotate(10deg); /* IE 9 */
+	-webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+	transform: rotate(10deg);
+	border: 2px;
+	text-shadow: 5px 5px 5px #82c3a6; 
+	}
+
+	#columna2
+	{
+	background-color: #d5c75f;
+	margin-left: 5%;
+	width: 45%;
+	border: 1px;
+	}
+
+	#imagen2:hover 
+	{
+	transform: translate(20px, -5px);
+	border: 2px;
+	text-shadow: 5px 5px 5px #82c3a6; 
+	}
+
+	#columna3
+	{
+	background-color:  #d5c75f;
+	width: 45%;
+	border: 1px;
+	}
+
+	#contenedor_foot{
+	width: 900px
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 80%;
+	margin: 2rem;
+	}
+
+	#pie{
+	margin-left: 5%;
+	}
+	
+	#pie1 article
+	{
+	background-color: #C6d5c5;	
+	width: 24%;
+	border: 1px;
+	
+	}
+	#pie2 article
+	{
+	background-color: #C6d5c5;
+	width: 24%;
+	border: 1px;
+	}
+	#pie3 article
+	{
+	background-color: #C6d5c5;
+	width: 24%;
+	border: 1px;
+	}
+	#pie4 article
+	{
+	background-color: #C6d5c5;
+	width: 22.8%;
+	border: 1px;
+	}
+
+@media screen and (min-width: 901px){
+
+	#contenido
+	{
+		width: 900px;
+		margin: 0 auto;
+	}
+	
+}
+
+@media screen and (max-width: 900px){
+
+	#contenido
+	{
+		width: 50%;
+		margin: 0 auto;
+	}
+	#main-header{
+		margin-left: 5%;
+		width: 100%;
+	}
+	#columna1{
+		width: 100%;
+	}
+	#columna2{
+		width: 100%;
+	}
+	#columna3{
+		width: 100%;
+		margin-left: 5%;
+	}
+	#pie1 article{
+		width: 100%;
+	}
+	#pie2 article{
+		width: 100%;	
+	}
+	#pie3 article{
+		width: 100%;
+	}
+	#pie4 article{
+		width: 100%;
+	}
+	#contenedor_foot{
+		width: 100%;
+	}
+	footer{
+		width: 100%;
+	}
+	header
+	{
+	width:100%;
+	}	
+}
+}
