@@ -1,0 +1,10 @@
+Locales
+
+.\index.html
+.\retrato.html
+.\paisaje.html
+
+
+Externo
+
+https://github.com/omarking/examen2_html.git
